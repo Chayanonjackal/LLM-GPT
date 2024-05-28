@@ -1,0 +1,67 @@
+GPT-2
+
+# Initialize the text generation pipeline with GPT-2 (124M parameters)
+generator_gpt2 = pipeline('text-generation', model='gpt2')
+
+# Initialize the text generation pipeline with GPT-2 Medium (355M parameters)
+generator_gpt2_medium = pipeline('text-generation', model='gpt2-medium')
+
+# Initialize the text generation pipeline with GPT-2 Large (774M parameters)
+generator_gpt2_large = pipeline('text-generation', model='gpt2-large')
+
+# Initialize the text generation pipeline with GPT-2 XL (1.5B parameters)
+generator_gpt2_xl = pipeline('text-generation', model='gpt2-xl')
+
+GPT-Neo
+
+# Initialize the text generation pipeline with GPT-Neo 125M model
+generator_gpt_neo_125M = pipeline('text-generation', model='EleutherAI/gpt-neo-125M')
+
+# Initialize the text generation pipeline with GPT-Neo 1.3B model
+generator_gpt_neo_1_3B = pipeline('text-generation', model='EleutherAI/gpt-neo-1.3B')
+
+# Initialize the text generation pipeline with GPT-Neo 2.7B model
+generator_gpt_neo_2_7B = pipeline('text-generation', model='EleutherAI/gpt-neo-2.7B')
+
+GPT-J Model
+
+# Initialize the text generation pipeline with GPT-J 6B model
+generator_gpt_j_6B = pipeline('text-generation', model='EleutherAI/gpt-j-6B')
+
+GPT-NeoX Model
+
+# Initialize the text generation pipeline with GPT-NeoX 20B model
+generator_gpt_neox_20B = pipeline('text-generation', model='EleutherAI/gpt-neox-20b')
+
+T5 Models
+
+# Initialize the text generation pipeline with T5 Small model
+generator_t5_small = pipeline('text2text-generation', model='t5-small')
+
+# Initialize the text generation pipeline with T5 Base model
+generator_t5_base = pipeline('text2text-generation', model='t5-base')
+
+# Initialize the text generation pipeline with T5 Large model
+generator_t5_large = pipeline('text2text-generation', model='t5-large')
+
+# Initialize the text generation pipeline with T5 3B model
+generator_t5_3B = pipeline('text2text-generation', model='t5-3B')
+
+# Initialize the text generation pipeline with T5 11B model
+generator_t5_11B = pipeline('text2text-generation', model='t5-11B')
+
+DistilGPT-2 Model
+
+# Initialize the text generation pipeline with DistilGPT-2 model
+generator_distilgpt2 = pipeline('text-generation', model='distilgpt2')
+
+DialoGPT Models
+
+# Initialize the text generation pipeline with DialoGPT Small model
+generator_dialoGPT_small = pipeline('text-generation', model='microsoft/DialoGPT-small')
+
+# Initialize the text generation pipeline with DialoGPT Medium model
+generator_dialoGPT_medium = pipeline('text-generation', model='microsoft/DialoGPT-medium')
+
+# Initialize the text generation pipeline with DialoGPT Large model
+generator_dialoGPT_large = pipeline('text-generation', model='microsoft/DialoGPT-large')
